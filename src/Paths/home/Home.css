@@ -1,0 +1,120 @@
+
+
+.gpt3__home {
+     width: 31%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 4rem;
+     margin-bottom: 5rem;
+     flex-grow: 1;
+}
+
+.gpt3__home-noti {
+display: flex;
+flex-basis: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.gpt3__home-noti_1 {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.gpt3__home-noti_1 p {
+    
+    font-weight: 600;
+}
+
+.gpt3__home-header {
+  height: 125px;
+  width: 100%;
+  left: 21px;
+  top: 110px;
+  border-radius: 16px;
+  background-color: #FFEDED;
+  padding: 1rem;
+  margin: 1rem 0rem;
+}
+.gpt3__home-header-amt {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.gpt3__home-header-amt > p {
+font-weight: 600;
+}
+.gpt3__home-header-eye {
+display: flex;
+align-items: center;
+gap: 0.5rem;
+border-radius: 8px;
+padding: 4px 8px 4px 8px;
+background-color: rgba(220, 0, 25, 0.1);
+}
+.gpt3__home-header-eye p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #1E1E1E;
+    letter-spacing: -0.24px;
+    
+}
+.gpt3__home-fund {
+margin-top: 2rem;
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+.gpt3__home-fund-logo {
+flex-basis: 200px;
+    height: 36px;
+    background: linear-gradient(180deg, #31DC61 0%, #19953C 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+ .gpt3__home-fund  p{
+color:white ;
+}
+.gpt3__home-fund_transfer  {
+    height: 36px;
+    background: #EB001B;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-basis: 200px;
+    flex-grow: 1;
+   
+}
+
+
+/* MEDIA QUERY FOR SCREEN */
+
+@media screen and (max-width:400px) {
+  .gpt3__home {
+  min-width: 100%;
+  padding: 1rem;
+  }
+
+ .gpt3__home-fund {
+ display: flex;
+ gap: 6px;
+ }
+}
+
+@media screen and (min-width:400px) and (max-width:767px){
+    .gpt3__home {
+    width: 80%;
+    margin-top: 25%;
+    }
+}
+

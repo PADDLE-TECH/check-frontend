@@ -1,0 +1,93 @@
+.gpt3__fwallet {
+    width: 31%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+
+}
+.gpt3__fwallet h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+.text-one {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #727272;
+    margin: 1rem 0 1.5rem 0;
+}
+.gpt3__fwallet-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 16px;
+    background: rgba(197, 118, 0, 0.1);
+    border-radius: 8px;
+    gap: 10px;
+}
+.img {
+height: 20px;
+display: flex;
+flex-direction: column;
+justify-content:start;
+align-items: center;
+}
+
+
+.gpt3__fwallet-details p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #C57600;
+}
+.num-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E1E1E;
+    margin: 1rem 0 0.5rem;
+}
+.gpt3__fwallet-acct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    background: #F8F8F8;
+    border: 1px solid #CDCDCD;
+    border-radius: 8px;
+}
+.gpt3__fwallet-acct-div h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #1E1E1E;
+}
+.gpt3__fwallet-acct-div h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #727272;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    .gpt3__fwallet {
+    min-width: 90%;
+    }
+    
+}
